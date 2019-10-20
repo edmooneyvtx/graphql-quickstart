@@ -25,4 +25,6 @@
 * https://github.com/apollographql/graphql-playground
 
 * AWS Amplify: https://github.com/aws-amplify/amplify-js?source=post_page-----e4b9005f6fc2----------------------#4-graphql-api-operations
+
+* Swagger to GraphQL: https://github.com/yarax/swagger-to-graphql
   
