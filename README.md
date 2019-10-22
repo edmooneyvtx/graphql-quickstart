@@ -15,6 +15,8 @@
 
 ## Resources:
 
+* L&L Sway: https://sway.office.com/9fBKs1nhvQXOE60b?web=1
+
 * Awesome GraphQL: https://github.com/chentsulin/awesome-graphql
 
 * Spacecloud: https://github.com/edmooney/space-cloud
