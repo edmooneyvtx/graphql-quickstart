@@ -190,6 +190,8 @@ gql`
 
 * Netflix Falcor: [https://netflix.github.io/falcor/](https://netflix.github.io/falcor/)
 
+* Expressjs w/ Hasura: https://blog.hasura.io/add-authentication-and-authorization-to-next-js-8-serverless-apps-using-jwt-and-graphql/
+
 
 ### Videos
 
