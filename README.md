@@ -190,6 +190,8 @@ gql`
 
 * Netflix Falcor: [https://netflix.github.io/falcor/](https://netflix.github.io/falcor/)
 
+* Moving from REST to GraphQL: [https://medium.com/open-graphql/moving-existing-api-from-rest-to-graphql-205bab22c184](https://medium.com/open-graphql/moving-existing-api-from-rest-to-graphql-205bab22c184)
+
 
 ### Videos
 
