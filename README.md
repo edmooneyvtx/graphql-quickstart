@@ -174,6 +174,8 @@ gql`
 
 * Apollo Tutorial: Apollo Tutorial: https://www.apollographql.com/docs/tutorial/introduction/
 
+* GraphQL Playground: https://github.com/prisma-labs/graphql-playground
+
 
 ### Videos
 
