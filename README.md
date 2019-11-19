@@ -205,7 +205,6 @@ GraphQL Core Concepts: [https://www.howtographql.com/basics/2-core-concepts/](ht
 ### GitHub Queries
 
 ```
-# We'll get you started with a simple query showing your username!
 query { 
   user(login:"edmooney") { 
     bio
@@ -221,7 +220,7 @@ query {
 			totalCount
     }
     }
-    ```
+```
     
   
   And another...
@@ -249,5 +248,4 @@ query {
     }
   }
 }
-
 ```
