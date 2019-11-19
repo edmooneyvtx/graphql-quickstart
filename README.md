@@ -13,7 +13,6 @@ Other tools of interest.
 * Subscription
 * Mutations
 * Queries
-* Apollo
 
 
 ## Demos
@@ -32,18 +31,8 @@ Post deployment:
 Example:
 [https://gql-postgres.herokuapp.com/console](https://gql-postgres.herokuapp.com/console)
 
-#### Sample Dataset:
-@todo
-
-
-#### Sample queries with this dataset.
-
-@todo.
 
 ### ExpressJS
-
-#### Using this quickstart
-
 
 #### Basics
 
@@ -89,19 +78,6 @@ resolvers
 
 //use the middleware to attach
 server.applyMiddleware( {app} );
-```
-
-
-### Flask (python)
-
-#### Using this quickstart
-- docker pull the flask 
-
-#### Basics
-  
-```
-
-
 ```
   
 ## General concepts
