@@ -200,3 +200,25 @@ GraphQL Core Concepts: [https://www.howtographql.com/basics/2-core-concepts/](ht
 * GraphQL Conf: https://www.youtube.com/watch?reload=9&v=AIMOkj1ohaU&feature=youtu.be&t=461
 
 * GraphQL history: https://www.youtube.com/watch?v=783ccP__No8 
+
+
+### GitHub Queries
+
+```
+# We'll get you started with a simple query showing your username!
+query { 
+  user(login:"edmooney") { 
+    bio
+		bioHTML
+    id
+    databaseId
+    name
+    company
+    createdAt
+    location
+    email
+    followers(first:1){
+			totalCount
+    }
+    }
+    ```
