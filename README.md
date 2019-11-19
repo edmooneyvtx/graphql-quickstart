@@ -222,3 +222,32 @@ query {
     }
     }
     ```
+    
+  
+  And another...
+  
+  let's get a repo where the owner is vertexinc and the name is
+  
+  ```
+ query {
+  repository(owner:"vertexinc", name:"labs-sherlock-ui") {
+    issues(last:20, states:OPEN) {
+      edges {
+        node {
+          title
+          url
+          state
+          labels(first:5) {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+```
