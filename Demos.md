@@ -113,8 +113,52 @@ https://api.spacex.land/graphql/
 
 ```
 
+### GitHub Queries
 
+```
+query { 
+  user(login:"edmooney") { 
+    bio
+		bioHTML
+    id
+    databaseId
+    name
+    company
+    createdAt
+    location
+    email
+    followers(first:1){
+			totalCount
+    }
+    }
+```
+    
+  
+  And another...
+  
+ let's get a repo where the owner is vertexinc and the name is
 
+```
+ query {
+  repository(owner:"vertexinc", name:"labs-sherlock-ui") {
+    issues(last:20, states:OPEN) {
+      edges {
+        node {
+          title
+          url
+          state
+          labels(first:5) {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
 
-### 
 
