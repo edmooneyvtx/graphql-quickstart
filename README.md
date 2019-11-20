@@ -183,7 +183,7 @@ gql`
 
 * GraphQL Conf: https://www.youtube.com/watch?reload=9&v=AIMOkj1ohaU&feature=youtu.be&t=461
 
-* GraphQL history: https://www.youtube.com/watch?v=783ccP__No8 
+* GraphQL history: https://www.youtube.com/watch?v=783ccP__No8 (around 3:00 min mark discusses challenges)
 
 
 ### GitHub Queries
