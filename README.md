@@ -178,58 +178,14 @@ gql`
 
 * Using a Database - Just one of the options: https://typeorm.io/
 
+* Implement your REST interface in graphql: https://www.roytuts.com/wrap-rest-api-with-graphql-in-node-js/
+
 
 ### Videos
 
 * GraphQL Conf: https://www.youtube.com/watch?reload=9&v=AIMOkj1ohaU&feature=youtu.be&t=461
 
-* GraphQL history: https://www.youtube.com/watch?v=783ccP__No8 (around 3:00 min mark discusses challenges)
+* GraphQL history: https://www.youtube.com/watch?v=783ccP__No8 
 
 
-### GitHub Queries
 
-```
-query { 
-  user(login:"edmooney") { 
-    bio
-		bioHTML
-    id
-    databaseId
-    name
-    company
-    createdAt
-    location
-    email
-    followers(first:1){
-			totalCount
-    }
-    }
-```
-    
-  
-  And another...
-  
- let's get a repo where the owner is vertexinc and the name is
-
-```
- query {
-  repository(owner:"vertexinc", name:"labs-sherlock-ui") {
-    issues(last:20, states:OPEN) {
-      edges {
-        node {
-          title
-          url
-          state
-          labels(first:5) {
-            edges {
-              node {
-                name
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-```
