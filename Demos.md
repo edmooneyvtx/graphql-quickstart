@@ -7,8 +7,10 @@
 
 #### Queries
 
+Below are some sample queries to get you going.
 
-Simple Query
+
+#### Simple Query
 
 ```
 query MyQuery {
@@ -21,7 +23,7 @@ query MyQuery {
 }
 ```
 
-Simple Query with a filter
+#### Simple Query with a filter
 
 ```
 query MyQuery {
@@ -32,21 +34,27 @@ query MyQuery {
     sciname
   }
 }
-
+```
 
 
 #### Mutation
 
+Insert a new plant
+
 ```
 mutation MyMutation {
   __typename
-  delete_plants(where: {}) {
+  insert_plants(objects: {adddetail: "my test", id: 70123, commonname: "mooney plant", sciname: "mooney sci"}) {
     returning {
       id
+      commonname
+      sciname
     }
   }
 }
+
 ```
+
 
 
 ### SPACEX
