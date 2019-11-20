@@ -176,6 +176,8 @@ gql`
 
 * GraphQL Playground: https://github.com/prisma-labs/graphql-playground
 
+* Using a Database - Just one of the options: https://typeorm.io/
+
 
 ### Videos
 
