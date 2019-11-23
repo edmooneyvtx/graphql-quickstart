@@ -13,8 +13,9 @@ let books = [{
 {
     title: 'The Complete Poetry & Prose of William Blake',
     author: 'David V. Erdman',
-    published:1997
+    published: 1997
 }];
+
 
 module.exports = {
  books

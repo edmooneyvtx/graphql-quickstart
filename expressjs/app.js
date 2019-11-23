@@ -1,7 +1,4 @@
 var createError = require('http-errors');
-
-
-
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -10,10 +7,18 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 const books = require('./data').books;
+/* 
+// using sqllite db - uncomment the below with the database
+see the following for setting up the models:
+https://sequelize.org/master/manual/getting-started.html
 
+const Sequelize = require('sequelize');
+const sequelize = new Sequelize({
+  dialect: 'sqlite',
+  storage: 'path/to/.sqlite'
+});
 
-
-
+*/
 
 var express = require('express');
 var app = express();
@@ -30,7 +35,6 @@ const typeDefs = gql`
     title: String!
     author: String!
     published: Int!
-
   }
 
 `;
@@ -48,6 +52,8 @@ const resolvers = {
     }
   }
 }
+
+
 
 const server = new ApolloServer({
   typeDefs,
