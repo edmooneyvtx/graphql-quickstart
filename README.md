@@ -180,6 +180,8 @@ gql`
 
 * Implement your REST interface in graphql: https://www.roytuts.com/wrap-rest-api-with-graphql-in-node-js/
 
+* Conversions: https://www.apimatic.io/transformer#supported-formats
+
 
 ### Videos
 
